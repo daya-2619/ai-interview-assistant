@@ -99,7 +99,7 @@ export class AIService {
     const hasExamples = this.checkForExamples(answer);
     const hasTechnicalTerms = this.checkTechnicalTerms(question, answer);
 
-    let baseScore = 40; // Base score for attempting
+    let baseScore = 0; // Base score for attempting
 
     // Length scoring (0-20 points)
     if (answerLength > 200) baseScore += 20;
