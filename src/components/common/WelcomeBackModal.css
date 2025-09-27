@@ -1,0 +1,50 @@
+.welcome-back-modal {
+  text-align: center;
+  max-width: 400px;
+}
+
+.welcome-content {
+  margin-bottom: 32px;
+}
+
+.welcome-icon {
+  color: #667eea;
+  margin-bottom: 16px;
+}
+
+.welcome-content p {
+  margin-bottom: 12px;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.session-info {
+  color: #666 !important;
+  font-size: 0.9rem !important;
+  background: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 4px !important;
+}
+
+.welcome-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.welcome-actions .btn {
+  flex: 1;
+  min-width: 120px;
+}
+
+@media (max-width: 480px) {
+  .welcome-actions {
+    flex-direction: column;
+  }
+  
+  .welcome-actions .btn {
+    flex: none;
+  }
+}
